@@ -1,0 +1,155 @@
+.header {
+
+    height: 480px;
+
+    background: #1D75DE;
+    position: relative
+}
+
+.titre {
+
+    height: 401px;
+    width: 1140px;
+    position: absolute;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+
+}
+
+
+.container-fluid {
+    position: absolute;
+
+    top: 2108.453125px;
+    padding: 80px 135px 50px 135px;
+    background: #000000;
+}
+
+
+
+
+.content-item {
+
+    top: 80px;
+    left: 135px
+}
+
+.logo-footer {
+    width: 131.48204040527344px;
+    height: 39.40437698364258px;
+    top: 0.63885498046875px;
+    left: 0.2255859375px
+}
+
+ul {
+    list-style: none;
+}
+
+.first {
+
+    color: #919496;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.9599999785423279px;
+    text-align: left;
+}
+
+
+
+ul li a:hover {
+    color: rgb(2, 251, 2);
+}
+
+
+
+.title {
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 17px;
+    letter-spacing: 0.9px;
+    text-align: left;
+    color: #919496 !important;
+    text-transform: uppercase;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .item5 img {
+        width: 30px;
+
+    }
+
+    .logo-footer-footer {
+        width: 40px;
+        height: 20px;
+    }
+
+    .first {
+        font-size: 10px;
+    }
+
+}
+
+ul li a {
+
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    text-decoration: none !important
+}
+
+
+.copyright {
+
+    height: 39px;
+    top: 385px;
+    font-family: Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #919496;
+
+}
+
+.bloc-city {
+
+    width: 95.3px;
+    height: 39px;
+    top: 346px;
+    left: 1059.703125px;
+    padding: 13px 4.296875px 13px 0px;
+    gap: 8px;
+    color: #919496;
+
+
+}
+
+.img-world {
+
+    width: 12px;
+    height: 13px;
+    padding: 0.6240230202674866px 0px 0.3759006857872009px 0px
+}
+
+
+.fab {
+
+    font-size: 30px;
+}

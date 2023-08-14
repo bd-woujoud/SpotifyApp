@@ -1,0 +1,193 @@
+#login .headerBar {
+    box-sizing: border-box;
+    position: absolute;
+    height: 92px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    border-bottom: 1px solid #D9DADC;
+}
+
+
+#login .headerLogo {
+    width: 143px;
+    height: 44px;
+    top: 25px;
+    color: black !important
+}
+
+#login .headerLogo img {
+    position: absolute;
+    width: 143px;
+    height: 44px;
+    left: calc(50% - 143px/2);
+    top: 25px;
+}
+
+
+#login .login-header {
+    font-size: 18px !important;
+    margin-top: 200px;
+}
+
+@media screen and (min-width:768px) {
+    #login .card {
+
+        width: 450px;
+        height: auto;
+    }
+
+}
+
+#login .btn-perso {
+    margin-top: 15px;
+    background: #1ed760;
+    border-radius: 500px;
+    padding: 15px 33.11px 16px 33px;
+    border: 1px solid #878787 !important;
+
+}
+
+#login .btn-social {
+
+    height: 48px;
+    border-radius: 500px;
+    border: 1px;
+}
+
+#login .gmail {
+    width: 24px;
+    height: 24px
+}
+
+#login .form-label {
+    font-size: 13px !important;
+}
+
+
+#login .eye {
+
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 414px;
+    top: 12px;
+    left: calc(100% - 12px);
+    overflow: visible;
+
+}
+
+
+#login .sign-in {
+    width: 121px;
+    height: 48px;
+    border-color: #1ed760 !important;
+    padding: 15px 33px 16px 33px;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+    ;
+}
+
+.logIn {
+    color: #000000;
+    text-align: center;
+    font: 700 14px "Inter", sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#login input[type=checkbox] {
+    accent-color: #169B45 !important;
+    width: 16px;
+    height: 16px;
+    padding: 2px 3px 3px 3px;
+    border-radius: 3px;
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#login .forgot-password {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+#login .custom-control {
+    margin-top: 15px;
+}
+
+#login .my-4-perso {
+
+    height: 2px;
+    border: 1px solid #c5c6c9 !important;
+    border: 1px;
+    width: 100%;
+}
+
+#login .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 2px;
+    border: 1px solid #c5c6c9 !important;
+    border: 1px;
+    width: 100%;
+}
+
+#login .divider::before,
+#login .divider::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #c5c6c9;
+}
+
+.divider::before {
+    margin-right: 0.5em;
+}
+
+#login .divider::after {
+    margin-left: 0.5em;
+}
+
+#login .divider-OR {
+    top: 15px;
+    left: 195px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+@media screen and (max-width:768px) {
+
+    #login .btn-perso {
+        padding: 8px 10px 8px 10px;
+    }
+
+
+}
+
+@media screen and (max-width:576px) {
+
+    #login .btn-perso {
+
+        font-size: 12px !important;
+
+    }
+
+}
